@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 10px;
+    background-image: url(office.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu{
+    margin-top: 30px;
+    background-color: lightgreen;
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active, .menu ul li:hover{
+    background: white;
+    border-radius: 10px;
+
+}
+.sub-menu1{
+    display: none;
+}
+.menu .fa{
+    margin-right: 10px;
+}
+.menu ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background: lightgreen;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu ul li:hover .sub-menu1 ul{ 
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none;
+}
+.menu ul li:hover .sub-menu1 ul li a:hover{
+    color: blue;
+}
+.sub-menu2{
+    display: none;
+}
+.hover-me:hover .sub-menu2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background:  lightgreen;
+}

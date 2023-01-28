@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> PMS </title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <style>
+            body{
+                background-image: url(img.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            .form{
+                border-radius: 125px;
+                text-align: center;
+                border: 5px solid black;
+                width:400px;
+                height: 350px;
+                margin-left: 700px;
+                margin-top: 250px;
+                background-color: burlywood;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form">
+            <form action="#" method="post"><br>
+                <p style="font-size: 30px;"><U><B>Login</B></U></p>
+                <b>Username: <input type="text" name="user" required></b><br><br>
+                <b>Password: <input type="password" value="" id="myInput"></b><br><br>
+                <input type="checkbox" onclick="myFunction()"><b> Show Password </b><br>
+                <script src="script.js"></script><br>
+                <p><button type="button">Login</button></p>
+            </form>
+        </div>  
+    </body>
+</html>
