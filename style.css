@@ -1,18 +1,20 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
 }
 body{
+    /* position: absolute;*/
     margin-top: 10px;
     background-image: url(office.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 .menu{
     margin-top: 30px;
-    background-color: lightgreen;
+    background-color: lightseagreen;
     text-align: center;
 }
 .menu ul{
@@ -21,7 +23,8 @@ body{
     color: black;
 }
 .menu ul li{
-    width: 120px;
+    cursor: pointer;
+    width: 130px;
     margin: 15px;
     padding: 5px;
 }
